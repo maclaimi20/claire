@@ -1,7 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<note>
-<to>Tove</to>
-<from>Jani</from>
-<heading>Reminder</heading>
-<body>Don't forget me this weekend!</body>
-</note>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   </head>
+<body>
+
+    <h1>Insert data into DB </h1>
+  
+        <label for="ID">Enter ID:</label>
+        <input type="text" id="" name="Name" required>
+        <br>
+        <label for="Email">Email:</label>
+        <textarea id="Email" name="Email" required></textarea>
+        <br>
+        <label for="Contact">Contact:</label>
+        <textarea id="Contact" name="Contact" required></textarea>
+        <br>
+        <button type="submit" value="Add" name="insertbtn">Add</button>
+    </form>
+
+  
+</body>
+</html>
+
